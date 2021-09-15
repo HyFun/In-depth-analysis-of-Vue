@@ -3,24 +3,26 @@
  * @Date         : 2021-09-14 17:44:59
  * @Description  :
  * @LastEditors  : HyFun
- * @LastEditTime : 2021-09-15 10:02:54
+ * @LastEditTime : 2021-09-15 10:43:02
  */
 import { React } from 'https://deno.land/x/pagic/mod.ts'
 
 export default {
   srcDir: '.',
   exclude: ['LICENSE'],
-  root: '/vue2/',
+  root: '/In-depth-analysis-of-Vue/',
 
   theme: 'docs',
   plugins: ['sidebar', 'prev_next'],
   title: '深入剖析Vue源码',
   description: 'Vue源码解析，深入剖析Vue源码',
   // To use jsx syntax, please rename this file to pagic.config.tsx
-  head: <>
-    <link rel="icon" href="src/assets/favicon.ico" />
-    {/* <script src="/assets/custom.js" /> */}
-  </>,
+  head: (
+    <>
+      <link rel="icon" href="src/assets/favicon.ico" />
+      {/* <script src="/assets/custom.js" /> */}
+    </>
+  ),
   nav: [
     {
       text: 'Vue2.x文档',
