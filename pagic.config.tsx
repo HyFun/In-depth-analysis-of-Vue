@@ -3,9 +3,9 @@
  * @Date         : 2021-09-14 17:44:59
  * @Description  :
  * @LastEditors  : HyFun
- * @LastEditTime : 2021-09-15 10:43:02
+ * @LastEditTime : 2021-09-15 10:53:11
  */
-import { React } from 'https://deno.land/x/pagic/mod.ts'
+import { React } from 'https://deno.land/x/pagic/mod.ts';
 
 export default {
   srcDir: '.',
