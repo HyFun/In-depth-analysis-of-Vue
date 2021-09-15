@@ -3,9 +3,9 @@
  * @Date         : 2021-09-14 17:44:59
  * @Description  :
  * @LastEditors  : HyFun
- * @LastEditTime : 2021-09-15 10:53:11
+ * @LastEditTime : 2021-09-15 12:39:32
  */
-import { React } from 'https://deno.land/x/pagic/mod.ts';
+import { React } from 'https://deno.land/x/pagic@v1.4.0/mod.ts';
 
 export default {
   srcDir: '.',
@@ -41,12 +41,12 @@ export default {
       popover: (
         <>
           <img
-            src="src/assets/wechat.png"
+            src="/src/assets/wechat.png"
             width="256"
             style={{ marginRight: '1rem', verticalAlign: 'top' }}
           />
           <img
-            src="src/assets/alipay.png"
+            src="/src/assets/alipay.png"
             width="256"
             style={{ verticalAlign: 'top' }}
           />
